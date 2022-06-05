@@ -27,11 +27,15 @@ Using the CoinGecko API I can get a coin on the market and return JSON like this
 
 `Coin stores name as the id, and stores the unique symbol`
 
-`Watchlist reference a User and an array of coins`
+`Watchlist reference a User and an array of coin id's`
 
 ## User flow
 > Coins that we grab from API will be listed and limted too the top 50 coins and said **User** will be able to click said **Coin** and list all available data on the coin and see the data displayed on a chart.
 
+![plot](https://user-images.githubusercontent.com/32720718/172044631-10bc0406-3ec7-411e-9930-d12d3cbf27d2.png)
+
 > User's will be able to add their favorite coins to a watch list and will be able to connect a Metamask wallet.
+
+![Watchlist](https://user-images.githubusercontent.com/32720718/172044667-cc4aad95-42c0-4b93-a064-c696978bfa82.png)
 
 > Find a **Coin** using the search bar to find one that isn't listed.
