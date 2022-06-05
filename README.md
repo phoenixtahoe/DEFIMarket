@@ -23,7 +23,7 @@ Using the CoinGecko API I can get a coin on the market and return JSON like this
 
 `User, Coin, Watchlist `
 
-`User stores id, username, password, email, metamask`
+`User stores id, username, password, email, metamask, and an address`
 
 `Coin stores name as the id, and stores the unique symbol`
 
