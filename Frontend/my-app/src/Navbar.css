@@ -1,0 +1,9 @@
+.nav-item {
+	width: 100px;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}

@@ -1,0 +1,18 @@
+CREATE TABLE users (
+  username VARCHAR(25) PRIMARY KEY,
+  password TEXT NOT NULL,
+  email TEXT NOT NULL,
+  is_admin BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+CREATE TABLE coins (
+  id TEXT PRIMARY KEY
+);
+
+CREATE TABLE favorites (
+  username VARCHAR(25)
+    REFERENCES users ON DELETE CASCADE,
+  id VARCHAR(25)
+    REFERENCES coins ON DELETE CASCADE,
+  PRIMARY KEY (username, id)
+);

@@ -1,0 +1,50 @@
+main {
+	background-color: #fff;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15vh;
+	height: calc(100vh - 56px);
+	overflow: scroll;
+}
+
+.card {
+	margin-bottom: 1rem;
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.form-group {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+th {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+td {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+table,
+th,
+tr,
+td {
+	padding: 40px !important;
+	border: 0px !important;
+	border-collapse: collapse !important;
+	border: none !important;
+	outline: none !important;
+}
